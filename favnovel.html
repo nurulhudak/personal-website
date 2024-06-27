@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Novels</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #081b29;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .banner-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .banner {
+            position: relative;
+            width: 45%;
+            max-width: 600px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .banner a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .banner-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: left;
+        }
+
+        .banner-text h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .banner-text p {
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="aboutme.html" class="logo">Nurulhuda.</a>
+
+        <nav class="navbar">
+            <a href="aboutme.html" target="bottom">About me</a>
+            <a href="biodata.html" target="bottom">Biodata</a>
+            <a href="mylife.html" target="bottom">My Life</a>
+            <div class="dropdown">
+                <a href="interest.html" target="bottom">Interest</a>
+                <div class="dropdown-content">
+                    <a href="novels.html">Novels</a>
+                    <a href="gaming.html">Gaming</a>
+                    <a href="favnovel.html">Favorite Novels</a>
+                    <a href="favfoods.html">Favorite Food</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="education.html">Education</a>
+                <div class="dropdown-content">
+                    <a href="https://www.instagram.com/smkptj/" target="_blank">High School</a>
+                    <a href="https://www.facebook.com/DMCof6/?locale=ms_MY" target="_blank">Form Six College</a>
+                    <a href="https://kedah.uitm.edu.my/" target="_blank">University</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>My Favourite Novels</h1>
+        <div class="banner-container">
+            <div class="banner">
+                <img src="img/maid.jpg" alt="Banner 1" class="banner-image">
+                <div class="banner-text">
+                    <h3>M.A.I.D</h3>
+                    <p>This is a romance story between a maid Noorul and her employer Harris that are forced to be married because of "fitnah".</p>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="img/lengloi.jpg" alt="Banner 2" class="banner-image">
+                <div class="banner-text">
+                    <h3>Lengloi</h3>
+                    <p>A horror story behind the mysterious lot 55 where many sellers tries to open their business there but it's destined to be doomed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
